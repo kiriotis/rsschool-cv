@@ -1,0 +1,152 @@
+main .container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+main .container .header {
+  border-radius: 10px;
+  background: wheat;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+main .container .header .navigate {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container .header .navigate ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+main .container .header .navigate ul li {
+  list-style-type: none;
+}
+main .container .main_container {
+  margin-top: 10px;
+  display: flex;
+}
+main .container .main_container .left_side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .container .main_container .left_side .img1 {
+  display: flex;
+}
+main .container .main_container .left_side .img1 img {
+  width: 100%;
+}
+main .container .main_container .left_side .skills .skills_h1 {
+  background: white;
+}
+main .container .main_container .left_side .skills .skill_list {
+  background: wheat;
+  border-radius: 10px;
+}
+main .container .main_container .left_side .skills .skill_list .skill_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 35px;
+}
+main .container .main_container .left_side .contacts .contacts_h1 {
+  background: white;
+}
+main .container .main_container .left_side .contacts .contacts_list {
+  border-radius: 10px;
+  background: wheat;
+}
+main .container .main_container .left_side .contacts .contacts_list .contacts_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style-type: none;
+}
+main .container .main_container .left_side .Languages .Languages_h1 {
+  background: white;
+}
+main .container .main_container .left_side .Languages .Languages_list {
+  border-radius: 10px;
+  background: wheat;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+main .container .main_container .right_side {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+  background: lightgray;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+main .container .main_container .right_side .name_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .container .main_container .right_side .name_container .name {
+  text-align: center;
+}
+main .container .main_container .right_side .name_container .sub_name {
+  text-align: center;
+}
+main .container .main_container .right_side .aboutme_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+main .container .main_container .right_side .aboutme_container .aboutme_h2 {
+  text-align: center;
+}
+main .container .main_container .right_side .aboutme_container .aboutme_main {
+  width: 90%;
+}
+main .container .main_container .right_side .code_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+main .container .main_container .right_side .code_container .code_h2 {
+  text-align: center;
+}
+main .container .main_container .right_side .code_container .code_main {
+  width: 90%;
+}
+main .container .main_container .right_side .projects {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+main .container .main_container .right_side .projects .projects_h2 {
+  text-align: center;
+}
+main .container .main_container .right_side .projects .projects_main {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+main .container .footer .footer_container {
+  margin-top: 10px;
+}
+main .container .footer .footer_container .footer_ul {
+  border-radius: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background: wheat;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
