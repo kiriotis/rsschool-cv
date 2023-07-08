@@ -1,0 +1,232 @@
+main {
+
+  .container {
+
+    max-width: 1250px;
+    margin: 0 auto;
+
+    .header {
+      border-radius: 10px;
+      background: wheat;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+
+      .navigate {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+
+          li {
+            list-style-type: none
+          }
+
+
+        }
+      }
+    }
+
+    .main_container {
+      margin-top: 10px;
+
+      display: flex;
+
+      .left_side {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+        .img1 {
+          display: flex;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .skills {
+          .skills_h1 {
+            background: white;
+          }
+
+          .skill_list {
+            background: wheat;
+            border-radius: 10px;
+
+            .skill_ul {
+
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              margin-left: 35px;
+
+              li {
+
+              }
+
+            }
+          }
+        }
+
+        .contacts {
+          .contacts_h1 {
+            background: white;
+          }
+
+          .contacts_list {
+            border-radius: 10px;
+            background: wheat;
+            .contacts_ul
+            {
+
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+              list-style-type: none;
+            }
+
+          }
+        }
+
+        .Languages {
+          .Languages_h1 {
+            background: white;
+          }
+
+          .Languages_list {
+            border-radius: 10px;
+            background: wheat;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+          }
+        }
+
+
+      }
+
+      .right_side {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        width: 100%;
+        background: lightgray;
+        margin-left: 5px;
+        border-radius: 10px;
+
+
+        .name_container {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          .name {
+            text-align: center;
+
+          }
+
+          .sub_name {
+            text-align: center;
+          }
+        }
+
+        .aboutme_container {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: center;
+
+          .aboutme_h2 {
+            text-align: center;
+          }
+
+          .aboutme_main {
+            width: 90%;
+          }
+        }
+
+        .code_container {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: center;
+
+          .code_h2 {
+            text-align: center;
+          }
+
+          .code_main {
+            width: 90%;
+          }
+        }
+
+        .projects {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: center;
+
+          .projects_h2 {
+            text-align: center;
+          }
+
+          .projects_main {
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+
+          }
+        }
+
+      }
+    }
+
+
+    .footer {
+      .footer_container
+      {
+
+        margin-top: 10px;
+        .footer_ul
+        {
+          border-radius: 10px;
+          list-style-type: none;
+          display: flex;
+          justify-content: space-around;
+          background: wheat;
+          align-items: center;
+          .github
+          {
+
+          }
+          .logo
+          {
+
+          }
+          .year
+          {
+
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+
+
